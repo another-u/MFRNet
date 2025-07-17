@@ -205,7 +205,7 @@ def res2net101_v1b_26w_4s(pretrained=False, **kwargs):
     """
     model = Res2Net(Bottle2neck, [3, 4, 23, 3], baseWidth=26, scale=4, **kwargs)
     if pretrained:
-        model_state = torch.load('/home/lx/users/lichen/BBNet--CoCOD-main/pretrained/res2net101_v1b_26w_4s-0812c246.pth',map_location=torch.device('cpu'))
+        model_state = torch.load('./pretrained/res2net101_v1b_26w_4s-0812c246.pth',map_location=torch.device('cpu'))
         model.load_state_dict(model_state)
         # model.load_state_dict(model_zoo.load_url(model_urls['res2net101_v1b_26w_4s']))
     return model
