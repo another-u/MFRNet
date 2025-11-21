@@ -54,7 +54,7 @@ If you find this project useful, please consider citing:
     @article{xxxxxxxx,
     title={Mutually-Guided Fusion Learning for Collaborative Camouflaged Object Segmentation},
     author={xxxxxxxxxxx},
-    journal={xxx},
+    journal={IEEE Transactions on Neural Networks and Learning Systems},
     pages={},
     doi={},
     year={2025}
