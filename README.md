@@ -51,13 +51,15 @@ The training and testing experiments are conducted using PyTorch with a single G
 
 If you find this project useful, please consider citing:
     
-    @article{xxxxxxxx,
+    @article{li2026mutually,
     title={Mutually-Guided Fusion Learning for Collaborative Camouflaged Object Segmentation},
-    author={xxxxxxxxxxx},
+    author={Li, Chen and Luan, Xiao and Liu, Linghui and Su, Yanzhao and Fu, Yule and Li, Weisheng},
     journal={IEEE Transactions on Neural Networks and Learning Systems},
-    pages={},
-    doi={},
-    year={2025}
+    volume={37},
+    number={6},
+    pages={2644-2657},
+    year={2026},
+    doi={10.1109/TNNLS.2025.3636523}
     }
 
 
